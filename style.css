@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @font-face {
   font-family: "Nunito", sans-serif;
   src: url("./fonts/Nunito.ttf");
@@ -27,7 +28,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.apresentation, .itensApresentation {
+.apresentation, .itensApresentation div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,18 +37,31 @@ body {
   margin: 2vw;
 }
 .itensApresentation {
+  display: flex;
   justify-items: center;
+  align-items: center;
+  background-color: #eaeaeb;
   border-bottom: 0.15vw solid #085e0536;
   box-shadow: 0 0 0.5vw 0vw #00000069;
-  padding: 3vw 2vw 2.5vw 3vw;
+  padding: 1vw;
+}
+.itensApresentation i {
+  font-size: 2.2vw;
+}
+.itensApresentation i:hover {
+  transform: scale(1.5);
+  cursor: pointer;
 }
 .apresentation img {
-  width: 45vw;
-  height: 25.3vw;
+  width: 48vw;
+  height: 27vw;
 }
 .apresentation p {
   margin: 1.5vw 1vw 0 1vw;
   text-align: center;
   font-size: 1.7vw;
-  width: 60vw;
+  width: 65vw;
+}
+.linksImgs {
+  display: none;
 }
