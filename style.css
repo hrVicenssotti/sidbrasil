@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Nunito", sans-serif;
+  src: url("./fonts/Nunito.ttf");
+}
+* {
+  font-family: "Nunito", sans-serif;
+}
+body {
+  margin: 0;
+}
+.apresetancao {
+  background-color: #e6d3c5;
+  padding: 0vw 3vw;
+  border-bottom: 0.15vw solid #085e0536;
+}
+.apresetancao h1 {
+  margin: 0;
+  font-size: 7vw;
+  color: black;
+  background: url("./image/imagemcode 1.png") 0 0 / cover no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
