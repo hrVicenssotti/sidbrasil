@@ -28,12 +28,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.apresentation, .itensApresentation div {
+.apresentacao, .itensApresentation div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.apresentation {
+.apresentacao {
   margin: 2vw;
 }
 .itensApresentation {
@@ -52,11 +52,11 @@ body {
   transform: scale(1.5);
   cursor: pointer;
 }
-.apresentation img {
+.apresentacao img {
   width: 48vw;
   height: 27vw;
 }
-.apresentation p {
+.apresentacao p {
   margin: 1.5vw 1vw 0 1vw;
   text-align: center;
   font-size: 1.7vw;
