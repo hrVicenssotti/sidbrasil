@@ -21,6 +21,7 @@ body {
 }
 .title h1 {
   margin: 0;
+  cursor: default;
   font-size: 7vw;
   color: black;
   background: url("./image/imagemcode 1.png") 0 0 / cover no-repeat;
@@ -57,6 +58,7 @@ body {
   height: 27vw;
 }
 .apresentacao p {
+  cursor: default;
   margin: 1.5vw 1vw 0 1vw;
   text-align: center;
   font-size: 1.7vw;
@@ -64,4 +66,43 @@ body {
 }
 .linksImgs {
   display: none;
+}
+.servicos {
+  margin-top: 5vw;
+}
+.itensServicos h2 {
+  font-size: 2.2vw;
+  margin: 0;
+}
+.itensServicos ul, .itensServicos li {
+  list-style: none;
+  padding: 0;
+}
+.itensServicos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.itensServicos li, .itensServicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.itensServicos li {
+  background-color: #ffffff;
+  border-bottom: 0.15vw solid #085e0536;
+  box-shadow: 0 0 0.5vw 0vw #00000069;
+  margin: 1vw 3vw 0 3vw;
+}
+.itensServicos p {
+  font-size: 1.5vw;
+}
+.itensServicos a {
+  height: 12.9vw;
+}
+.itensServicos img {
+  width: 25vw;
+  height: 13vw;
 }
