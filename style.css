@@ -19,6 +19,10 @@ body {
   border-bottom: 0.15vw solid #085e0536;
   box-shadow: 0 0 0.5vw 0vw #00000069;
 }
+.borderAndShadow {
+  border: 0.15vw solid #085e0536;
+  box-shadow: 0 0 0.5vw 0vw #00000069;
+}
 .title h1 {
   margin: 0;
   cursor: default;
@@ -42,8 +46,6 @@ body {
   justify-items: center;
   align-items: center;
   background-color: #eaeaeb;
-  border-bottom: 0.15vw solid #085e0536;
-  box-shadow: 0 0 0.5vw 0vw #00000069;
   padding: 1vw;
 }
 .itensApresentation i {
@@ -67,14 +69,14 @@ body {
 .linksImgs {
   display: none;
 }
-.servicos {
-  margin-top: 5vw;
+.itensServicos {
+  margin: 16vw 0;
 }
 .itensServicos h2 {
   font-size: 2.2vw;
   margin: 0;
 }
-.itensServicos ul, .itensServicos li {
+.itensServicos ul, .itensServicos li, .abrangencia ul, .abrangencia li {
   list-style: none;
   padding: 0;
 }
@@ -92,8 +94,6 @@ body {
 }
 .itensServicos li {
   background-color: #ffffff;
-  border-bottom: 0.15vw solid #085e0536;
-  box-shadow: 0 0 0.5vw 0vw #00000069;
   margin: 1vw 3vw 0 3vw;
 }
 .itensServicos p {
@@ -105,4 +105,20 @@ body {
 .itensServicos img {
   width: 25vw;
   height: 13vw;
+}
+.abrangencia p {
+  margin: 0;
+  padding: 1vw 2vw 1vw 2vw;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+.abrangencia {
+  margin: 2vw 0;
+  padding: 1vw 0;
+}
+.abrangencia li, .abrangencia img {
+  width: 40vw;
+}
+.abrangencia li {
+  margin: 2vw;
 }
