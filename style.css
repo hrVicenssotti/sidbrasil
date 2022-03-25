@@ -16,11 +16,11 @@ body {
 .title {
   background-color: #e6d3c5;
   padding: 0vw 3vw;
-  border-bottom: 0.15vw solid #085e0536;
+  border-bottom: 0.15vw solid #2d3f2c4b;
   box-shadow: 0 0 0.5vw 0vw #00000069;
 }
 .borderAndShadow {
-  border: 0.15vw solid #085e0536;
+  border: 0.05vw solid #2d3f2c4b;
   box-shadow: 0 0 0.5vw 0vw #00000069;
 }
 .title h1 {
@@ -76,7 +76,7 @@ body {
   font-size: 2.2vw;
   margin: 0;
 }
-.itensServicos ul, .itensServicos li, .abrangencia ul, .abrangencia li {
+.itensServicos ul, .itensServicos li, .abrangencia ul, .abrangencia li, .contato ul, .contato  {
   list-style: none;
   padding: 0;
 }
@@ -112,10 +112,6 @@ body {
   font-size: 1.5vw;
   text-align: justify;
 }
-.abrangencia {
-  margin: 2vw 0;
-  padding: 1vw 0;
-}
 .abrangencia li, .abrangencia img {
   width: 40vw;
 }
@@ -128,8 +124,43 @@ body {
   align-items: center;
 }
 .abrangencia ul li:nth-child(even) {
-  margin-left: 30vw;
+  margin-left: 35vw;
 }
 .abrangencia ul li:nth-child(odd) {
-  margin-right: 30vw;
+  margin-right: 35vw;
+}
+.contato {
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.contato ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  padding: 1.5vw 0;
+}
+.contato a {
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 0.5vw;
+}
+.contato p {
+  font-size: 1.2vw;
+}
+.contato li {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  margin: 0.5vw 0;
+}
+.contato li:hover {
+  transform: scale(1.2);
+}
+.contato img {
+  width: 3vw;
+  height: 3vw;
 }
