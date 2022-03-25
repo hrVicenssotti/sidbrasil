@@ -94,17 +94,17 @@ body {
 }
 .itensServicos li {
   background-color: #ffffff;
-  margin: 1vw 3vw 0 3vw;
+  margin: 1vw 2vw 0 2vw;
 }
 .itensServicos p {
   font-size: 1.5vw;
 }
 .itensServicos a {
-  height: 12.9vw;
+  height: 14.9vw;
 }
 .itensServicos img {
-  width: 25vw;
-  height: 13vw;
+  width: 28vw;
+  height: 15vw;
 }
 .abrangencia p {
   margin: 0;
@@ -121,4 +121,15 @@ body {
 }
 .abrangencia li {
   margin: 2vw;
+}
+.abrangencia ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abrangencia ul li:nth-child(even) {
+  margin-left: 30vw;
+}
+.abrangencia ul li:nth-child(odd) {
+  margin-right: 30vw;
 }
