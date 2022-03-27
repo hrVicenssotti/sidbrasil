@@ -1,0 +1,37 @@
+:root {
+    ---widthimagen: 40vw;
+}
+.inovacoes ul, .inovacoes li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.inovacoes h2 {
+    text-align: end;
+    margin: 0;
+    margin-right: calc(100% / 4);
+}
+.inovacoes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inovacoes li:nth-child(odd) {
+    margin-right: calc(var(---widthimagen) - 10%);
+}
+.inovacoes li:nth-child(even) {
+    margin-left: calc(var(---widthimagen) - 10%);
+}
+.inovacoes li {
+    display: flex;
+    align-items: center;
+}
+.inovacoes p {
+    width: 25vw;
+    font-size: 1.6vw;
+    text-align: justify;
+    margin: 0 1vw;
+}
+.inovacoes img {
+    width: var(---widthimagen);
+}

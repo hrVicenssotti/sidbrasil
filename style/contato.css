@@ -1,0 +1,40 @@
+.contato ul, .contato li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contato {
+    display: grid;
+    grid-template-areas: 
+    'Titulo Titulo'
+    'Opcoes Mensagem';
+}
+.contato h2 {
+    grid-area: Titulo;
+    margin-left: 1vw;
+}
+.contato ul {
+    display: flex;
+    grid-area: Opcoes;
+}
+.contato li {
+    display: flex;
+    align-items: center;
+    margin: 0.2vw 1.5vw;
+}
+.contato li:hover {
+    transform: scale(1.1);
+}
+.contato li a {
+    text-decoration: none;
+    color: black;
+}
+.contato p {
+    font-size: 1vw;
+    text-align: end;
+    grid-area: Mensagem;
+    margin-right: 1vw;
+}
+.contato img {
+    width: 3vw;
+}

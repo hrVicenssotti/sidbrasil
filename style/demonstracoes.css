@@ -1,0 +1,39 @@
+:root {
+    ---widthimagem: 40vw;
+}
+.demonstracoes h2 {
+    text-align: end;
+    margin: 0;
+    margin-right: calc(100% / 4);
+}
+.demonstracoes ul, .demonstracoes li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.demonstracoes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.demonstracoes li {
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+}
+.demonstracoes li:nth-child(even) {
+    margin-left: calc(var(---widthimagem) - 10%);
+}
+.demonstracoes li:nth-child(odd) {
+    margin-right: calc(var(---widthimagem) - 10%);
+}
+.demonstracoes p {
+    font-size: 1.6vw;
+    width: 25vw;
+    text-align: justify;
+    margin: 0 1vw;
+}
+.demonstracoes img {
+    width: var(---widthimagem);
+}
