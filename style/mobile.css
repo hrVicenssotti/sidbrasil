@@ -1,0 +1,98 @@
+@media screen and (max-width: 412px) {
+    p {
+        font-size: 3vw !important;
+    }
+    hr {
+        margin: 5vw 3vw;
+    }
+    h2 {
+        text-align: center !important;
+        margin-right: 0 !important;
+    }
+
+    /* Titulo */
+    .titulo nav {
+        display: none;
+    }
+    .titulo div {
+        margin-top: 3vw;
+        display: block;
+        width: 100%;
+    }
+    .titulo h1 {
+        font-size: 10vw;
+    }
+    .titulo p {
+        text-align: center;
+        font-size: 4vw !important;
+    }
+
+    /* Demonstrações */
+    .demonstracoes p {
+        width: 45vw;
+    }
+    .demonstracoes li {
+        margin: 5vw 0;
+    }
+    .demonstracoes li:nth-child(even) {
+        margin-left: 2vw;
+    }
+    .demonstracoes li:nth-child(odd) {
+        margin-right: 2vw;
+    }
+    .demonstracoes img {
+        width: 50vw;
+    }
+
+    /* Integrações */
+    .integracoes img {
+        width: 70vw;
+        height: 35vw;
+    }
+    .integracoes li {
+        margin: 3vw 0;
+    }
+    .integracoes ul li:nth-child(1) {
+        margin-right: calc(var(---widthimg) / 2 + 4vw);
+    }
+    .integracoes ul li:nth-child(3) {
+        margin-left: calc(var(---widthimg) / 2 + 4vw);
+    }
+
+    /* Inovacoes */
+    .inovacoes p {
+        width: 45vw;
+    }
+    .inovacoes li {
+        margin: 5vw 0;
+    }
+    .inovacoes li:nth-child(odd) {
+        margin-right: 1.5vw;
+    }
+    .inovacoes li:nth-child(even) {
+        margin-left: 1.5vw;
+    }
+    .inovacoes img {
+        width: 50vw;
+    }
+    .contato { 
+        grid-template-areas:
+        'Titulo'
+        'Opcoes'
+        'Mensagem';
+    }
+    /* Contato */
+    .contato ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato li {
+        margin: 2vw 1.5vw;
+    }
+    .contato p {
+        text-align: center;
+    }
+    .contato img {
+        width: 7vw;
+    }
+}

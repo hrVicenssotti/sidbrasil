@@ -16,6 +16,9 @@
     flex-direction: column;
     align-items: center;
 }
+.inovacoes li {
+    margin: 1vw 0;
+}
 .inovacoes li:nth-child(odd) {
     margin-right: calc(var(---widthimagen) - 10%);
 }
