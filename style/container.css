@@ -1,0 +1,30 @@
+.container {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.226);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 60%
+}
+.activeDesktop {
+    display: flex;
+}
+.activeDesktop img {
+    width: 60%;
+}
+.activeTablet {
+    display: flex;
+}
+.activeTablet img {
+    width: 80%;
+}
+.activeMobile {
+    display: flex;
+}
+.activeMobile img {
+    width: 100%;
+}

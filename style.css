@@ -3,6 +3,7 @@
 @import url("./style/integracoes.css");
 @import url("./style/inovacoes.css");
 @import url("./style/contato.css");
+@import url("./style/container.css");
 @font-face {
   font-family: "Nunito", sans-serif;
   src: url("./fonts/Nunito.ttf");
@@ -12,9 +13,6 @@
 }
 p, h2 {
   cursor: default;
-}
-body, html {
-  height: 100%;
 }
 body {
   margin: 0;
